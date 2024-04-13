@@ -18,6 +18,7 @@ data = pd.DataFrame({'whoAmI': lst})
 
 # # print(data.head())
 
+## Без get_dummies()
 # # Создание словаря для one-hot кодирования
 # categories = data['whoAmI'].unique()
 # categories.sort()  # Сортировка значений для однозначности в порядке
